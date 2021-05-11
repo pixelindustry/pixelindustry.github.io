@@ -21,7 +21,12 @@
 }
 .post {
 		 text-align: center; 
-		 color: red	
+		 color: red
+			     font-weight: bold;
+    font-size: 60px;
+    color: red;
+    font-family: Exo2-Medium
+			 
 }
 .poster
 {
