@@ -1,3 +1,10 @@
+@font-face {
+	font-family: "Exo2-Medium";
+	src: url("../fonts/Exo2-Medium.otf")
+}
+
+
+
 .fig { text-align: center; /* Выравнивание по центру */ }
 .button_1619822807094 {
     display: inline-block !important;
