@@ -1,3 +1,10 @@
+@font-face {
+	font-family: "Exo2-Medium";
+	src: url("../fonts/Exo2-Medium.otf")
+}
+
+
+
 body{
 				background: url('https://i.pinimg.com/236x/a2/fc/09/a2fc09e4fd143fc4c28749da496c0539.jpg');
 background-repeat: no-repeat;
