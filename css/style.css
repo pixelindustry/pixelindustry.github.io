@@ -1,0 +1,197 @@
+@font-face {
+	font-family: "Exo2-Medium";
+	src: url("../fonts/Exo2-Medium.otf")
+}
+
+
+
+
+
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	background: url("https://darknet.works/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_background_bz_-01.png");  no-repeat;
+	background-attachment: fixed;
+   margin: 0;  
+
+    
+ background-size: cover;
+}
+#block-body {
+	width: 1035px;
+	margin: auto;
+	height: auto;
+}
+header{
+	width: 1035px;
+	height: 80px;
+	background-color: black
+}
+.logo{
+	width: 200px;
+	float: left;
+	height: 80px;
+
+}
+.logo a{
+	display: block;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: "Exo2-Medium", sans-serif;
+	font-size: 28px;
+	color: #b2aeb2;
+	text-decoration: none;
+	cursor: pointer;
+}
+.inf1 {
+	color: #aa064b;
+	font-family: "Exo2-Medium", sans-serif;
+}
+.inf2{
+	color: #ffff00;
+	font-family: "Exo2-Medium", sans-serif;
+}
+.logo p {
+	margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+		font-family: "Exo2-Medium", sans-serif;
+	font-size: 13px;
+	color: #ffffff
+}
+.top-menu{
+	width: 685px;
+	height: 80px;
+	float: left;
+}
+.top-menu ul li{
+list-style: none;
+float: left;
+text-align: center;
+
+}
+.top-menu ul li a{
+	display: block;
+	width: 171px;
+	text-decoration: none;
+		font-family: "Exo2-Medium", sans-serif;
+	font-size: 17px;
+	color: white;
+	height: 55px;
+	padding-top: 25px;
+	cursor: pointer;
+}
+.top-menu ul li a:hover {
+	background:#00ADE4;
+	transition: all 0.5s ease;
+	-o- transition: all 0.5s ease;
+	-webkit- transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms- transition: all 0.5s ease;
+}
+
+.block-radio {
+
+    border: 10px solid rgba(0, 0, 0, .4);
+  background: url(http://2.bp.blogspot.com/-c4ScvKxvKBs/TkoXOfNQFHI/AAAAAAAACLA/0x_aaffS0t0/s00/background.jpg);
+
+
+}
+
+
+
+.info{
+	 
+ margin-left: 100px;
+	margin-top: 102px;
+
+}
+
+
+
+.vk{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chat{
+	width: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rbox {
+    float: right;
+    width: auto;
+    height: auto;
+  
+    
+    margin-top: 50px;
+    border-radius: 5px;
+	margin-right:  50px;
+
+
+
+	 border-color: white; /* Цвет границы */
+    border-style: solid; /* Стиль границы */
+    border-width: 1px;
+	background-color: #353c41;
+	color: white;
+	
+
+    
+	
+}
+
+.cbox{
+	width: 1000px;
+	margin: 50px;
+	height: auto;
+	margin-top: 50px;
+	border-radius: 5px;
+	
+
+
+	 border-color: white; /* Цвет границы */
+    border-style: solid; /* Стиль границы */
+    border-width: 1px;
+	background-color: #353c41;
+	color: white;
+	text-align: center;
+
+
+
+
+
+}

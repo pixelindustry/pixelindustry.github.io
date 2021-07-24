@@ -1,0 +1,1 @@
+pass = prompt('Введите пароль:'); if (pass=='') { alert('Успешный вход!') } else { alert('Пароль неверный!'), top.location.href="index.html" }
