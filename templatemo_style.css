@@ -9,7 +9,23 @@ body {
 	font-family: Verdana, Arial, san-serif;
 	font-size: 11px;
 	color: #CCC;
-	background: #000 url(images/templatemo_main_bg.jpg) top repeat-x;
+	
+
+
+background: url("https://darknet.works/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_background_bz_-01.png");  no-repeat;
+	background-attachment: fixed;
+  
+
+    
+ background-size: cover;
+
+
+
+
+
+
+
+
 }
 
 a:link, a:visited { 
@@ -329,7 +345,7 @@ p {
 	width: 960px;
 	margin: 10px auto 0 auto;
 	padding: 20px 0;
-	background: url(images/templatemo_bottom_panel_bg.jpg) top center;	
+	background: url(https://kartinkin.com/uploads/posts/2021-04/1617593394_30-p-zadnii-temnii-fon-31.jpg) top center;	
 }
 
 #templatemo_bottom_panel .bottom_panel_section {
