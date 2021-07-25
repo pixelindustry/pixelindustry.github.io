@@ -175,10 +175,11 @@ p {
 }
 
 #templatemo_content_column_two {
-	float: left;
+
 	width: 460px;
-	margin: 0 0 0 10px;
-	padding: 0;	
+	margin: auto;
+	padding-top: 50px;	
+position: relative;
 }
 
 #templatemo_content_column_three {
