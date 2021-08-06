@@ -1,1 +1,0 @@
-pass = prompt('Введите пароль:'); if (pass=='darknet') { alert('Успешный вход!') } else { alert('Пароль неверный!'), top.location.href="index.html" }
