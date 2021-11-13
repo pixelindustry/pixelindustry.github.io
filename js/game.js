@@ -65,8 +65,16 @@ function draw() {
  && xPos <= pipe[i].x + pipeUp.width
  && (yPos <= pipe[i].y + pipeUp.height
  || yPos + bird.height >= pipe[i].y + pipeUp.height + gap) || yPos + bird.height >= cvs.height - fg.height) {
- location.reload();
- location.reload(); // Перезагрузка страницы
+ function timedRefresh(timeoutPeriod) {
+    setTimeout("location.reload(true);",timeoutPeriod);
+}
+timedRefresh(10);
+
+
+
+
+
+ // Перезагрузка страницы
  }
 
  if(pipe[i].x == 5) {
