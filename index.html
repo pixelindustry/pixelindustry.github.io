@@ -5,10 +5,38 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Flappy Быков</title>
 </head>
-<body>
+
+
+
+ <div class="frame">
 <center>
-<iframe src="game/index.html" style="width: 330px; height: 540px;"></iframe>
+<iframe src="game/index.html" style="width: 330px; height: 540px;  zoom: 1.0;"></iframe>
+
+
 </center>
+ </div> 
+
+<center>
+   <p>⚙Меню:</p>
+   <p>Масштаб</p>
+<script language="javascript">
+var y=1
+function Size(step)
+{
+y=y+step;
+document.body.style.zoom = y;
+}
+</script>
+</head>
+<body>
+<p>
+<a href="javascript:void(0);" onclick="Size(-0.1);">Уменьшить ➖</a>
+&nbsp;
+<a href="javascript:void(0);" onclick="Size(0.1);">Увеличить ➕</a>
+</p>
+</center>
+
+
 
 </body>
 </html>
