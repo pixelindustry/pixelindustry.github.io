@@ -74,6 +74,21 @@ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyQaKVS5QD
 
 
 
+#block1 {
+float: left;
+display: block;
+width: 300px;
+border: 0px solid blue;
+margin: 2px;
+}
+
+#block2 {
+float: right;
+display: block;
+width: 300px;
+border: 0px solid blue;
+margin: 2px;
+}
 
 
 
