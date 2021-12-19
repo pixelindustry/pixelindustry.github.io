@@ -4,14 +4,14 @@ body {
 }
 .timer {
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  margin-top:0px;
+  margin-top:25px;
 }
 .block{
 	background-color: #333336;
-	width: 550px;
-	height: 80px;
+	width: 350px;
+	height: auto;
 border: 3px solid #8E8E8F;
 border-radius: 15px 15px 15px 15px;
 text-align: center;	
@@ -36,7 +36,7 @@ margin: auto;
 }
 .block2{
 	background-color: #333336;
-	width: 650px;
+	width: 450px;
 	height: auto;
 border: 3px solid #8E8E8F;
 border-radius: 15px 15px 15px 15px;
@@ -47,7 +47,7 @@ margin: auto;
 
 .block_info{
 	background-color: #333336;
-	width: 650px;
+	width: 450px;
 	height: auto;
 border: 3px solid #8E8E8F;
 border-radius: 15px 15px 15px 15px;
