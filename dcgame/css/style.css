@@ -10,7 +10,7 @@ body {
 }
 .block{
 	background-color: #333336;
-	width: 250px;
+	width: 240px;
 	height: auto;
 border: 3px solid #8E8E8F;
 border-radius: 15px 15px 15px 15px;
@@ -36,7 +36,7 @@ margin: auto;
 }
 .block2{
 	background-color: #333336;
-	width: 350px;
+	width: 340px;
 	height: auto;
 border: 3px solid #8E8E8F;
 border-radius: 15px 15px 15px 15px;
@@ -47,7 +47,7 @@ margin: auto;
 
 .block_info{
 	background-color: #333336;
-	width: 350px;
+	width: 340px;
 	height: auto;
 border: 3px solid #8E8E8F;
 border-radius: 15px 15px 15px 15px;
