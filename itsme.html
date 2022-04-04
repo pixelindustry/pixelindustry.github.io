@@ -8,9 +8,36 @@
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
     </head>
     <body style="background: url('img/bg.jpg')">
-    
-    <div id="bgndVideo" class="player" data-property="{videoURL:'wztfwnOjv2U', containment:'body', autoPlay:true, mute:false, loop:true, startAt:-1, opacity:1, showControls:false, showYTLogo:false, stopMovieOnBlur:false, quality:'hd1080', vol:'45'}"></div>
-    <div id="bgndVideo" class="player" data-property="{videoURL:'pbsPM_VsyRo', containment:'body', autoPlay:true, mute:false, loop:true, startAt:-1, opacity:1, showControls:false, showYTLogo:false, stopMovieOnBlur:false, quality:'hd1080', vol:'45'}"></div>
+
+
+<script>
+window.onload = function () {
+var lol = Math.floor(Math.random() * 3) + 1;
+var first=document.getElementById('first');
+var second=document.getElementById('second');
+var third=document.getElementById('third');
+ 
+switch (lol)
+  {
+    case 1: first.style.display = 'block';break;
+    case 2: second.style.display = 'block';break;
+    case 3: third.style.display = 'block';break;
+    default: first.style.display = 'block';break;
+  }
+}
+</script>
+
+
+    <div id="first">
+    <div id="bgndVideo" class="player" data-property="{videoURL:'wztfwnOjv2U', containment:'body', autoPlay:true, mute:false, loop:true, startAt:-1, opacity:1, showControls:false, showYTLogo:false, stopMovieOnBlur:false, quality:'hd1080', vol:'45'}"></div></div>
+
+
+    <div id="second">
+    <div id="bgndVideo" class="player" data-property="{videoURL:'pbsPM_VsyRo', containment:'body', autoPlay:true, mute:false, loop:true, startAt:-1, opacity:1, showControls:false, showYTLogo:false, stopMovieOnBlur:false, quality:'hd1080', vol:'45'}"></div></div>
+
+
+    <div id="third">
+    <div id="bgndVideo" class="player" data-property="{videoURL:'wztfwnOjv2U', containment:'body', autoPlay:true, mute:false, loop:true, startAt:-1, opacity:1, showControls:false, showYTLogo:false, stopMovieOnBlur:false, quality:'hd1080', vol:'45'}"></div></div>
 
     <script>
      
